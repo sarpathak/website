@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Drive File</title>
+    <style>
+        body {
+            background-image: url('https://img.freepik.com/free-photo/sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg?size=626&ext=jpg&ga=GA1.1.967060102.1709164800&semt=ais');
+            background-size: cover; /* Fit the background image to cover the entire screen */
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Set the height of the body to the full viewport height */
+        }
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        .download-btn {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="download-btn" onclick="downloadDriveFile()">Download Drive File</button>
+    </div>
+
+    <script>
+        function downloadDriveFile() {
+            // Redirect to the Google Drive file with the appropriate query parameters
+            window.location.href = 'https://drive.google.com/file/d/1TaFt9bEqRuo5R2XOh6SW7CyvJfyEEfLm/view?usp=drive_link';
+        }
+    </script>
+</body>
+</html>
